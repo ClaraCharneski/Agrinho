@@ -1,0 +1,85 @@
+body{
+  text-align: center;
+  font-family: serif;
+  background-image: url("img/sustentabilidade.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  color: black;
+  font-size: 40px;
+}
+h3{
+  font-family: initial;
+  font-size: 45px;
+  color: green;
+  padding-right: 80%;
+  margin: 0 auto;
+  
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+
+}
+
+h4{
+  font-size: 22px;
+}
+.principal {
+  text-align: left;
+  padding: 10px 0px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: black;
+}
+  
+}
+p{
+  font-size: 20px;
+  line-height: 1.5;
+  max-width:80%;
+  margin: 0 auto;
+}
+
+
+img{
+  width: 70%;
+  border: 3px solid black;
+  margin: 30px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+}
+
+.principal a{
+   color: white;
+   text-decoration: underline;
+   font-weight: normal;
+ }
+
+.principal li{
+  display: inline-block;
+  margin: 0 40px;
+}
+.texto{
+  background-color: white;
+  max-width:60%;
+  margin: 60px auto;
+  border: 5px solid black;
+}
