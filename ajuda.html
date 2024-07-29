@@ -29,24 +29,29 @@
 
     <section class="container">
       <div class="form-container">
-        <form action="">
+        <form method="post" action="forward.php">
           
           <h1> Entre em contato </h1>
           <p> Está com alguma dúvida? </p>
           <p> Preencha o formulário abaixo e entraremos em contato. </p>
           <div class="input1">
-            <input type="text" name="" id="nome" class="input" autocomplete="off" required>
-            <label for="nome"> Nome completo </label>
+            <input type="text" name="name" id="name" class="input" autocomplete="off" required>
+            <label for="name"> Nome completo </label>
           </div>
 
           <div class="input1">
-            <input type="text" name="" id="email" class="input" autocomplete="off" required>
-            <label for="email"> E-mail </label>
+            <input type="text" name="mail" id="mail" class="input" autocomplete="off" required>
+            <label for="mail"> E-mail </label>
           </div>
 
           <div class="input1">
-            <input type="text" name="" id="telefone" class="input" autocomplete="off" required>
-            <label for="telefone"> Telefone </label>
+            <input type="text" name="fone" id="fone" class="input" autocomplete="off" required>
+            <label for="fone"> Telefone </label>
+          </div>
+
+          <div class="input1">
+            <input type="text" name="question" id="question" class="input" autocomplete="off" required>
+            <label for="question"> Qual sua dúvida? </label>
           </div>
           
           <div class="button">
