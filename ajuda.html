@@ -4,7 +4,6 @@
   <head>
     <title>Agronomia High-Tech</title>
     <link href="style.css"rel="stylesheet"type="text/css">
-    <link href="ajuda.css"rel="ajudasheet"type="text/css">
   </head>
 
   <body>
@@ -14,20 +13,21 @@
         <li>
            <h3>Agrinho</h3>
         </li>
+        <li>
+           <a  href="index.html">Início</a>
+        </li>
 
         <li>
-          <a  href="index.html">Início</a>
+          <a  href="sobre.html">Sobre</a>
         </li>
-        <li>
-          <a  href="sobre.html"">Sobre</a>
-        </li>
+
         <li>
           <a href="ajuda.html">Ajuda</a>
         </li>
       </ul>
-    </nav>
+    </nav>    
 
-    <section class="form">
+    <section class="container">
       <div class="form-container">
         <form action="">
           
@@ -35,18 +35,18 @@
           <p> Está com alguma dúvida? </p>
           <p> Preencha o formulário abaixo e entraremos em contato. </p>
           <div class="input1">
-            <input type="text" name="" id="nome" class="input">
+            <input type="text" name="" id="nome" class="input" autocomplete="off" required>
             <label for="nome"> Nome completo </label>
           </div>
 
           <div class="input1">
-            <input type="text" name="" id="nome" class="input">
-            <label for="nome"> Nome completo </label>
+            <input type="text" name="" id="email" class="input" autocomplete="off" required>
+            <label for="email"> E-mail </label>
           </div>
 
           <div class="input1">
-            <input type="text" name="" id="nome" class="input">
-            <label for="nome"> Nome completo </label>
+            <input type="text" name="" id="telefone" class="input" autocomplete="off" required>
+            <label for="telefone"> Telefone </label>
           </div>
           
           <div class="button">
@@ -67,11 +67,15 @@
       </div>
       <div class="box">
         <img src="img/logo02.png" alt="Logo governo o Paraná" class="governo">
-        <p> Governo do Paraná </p>
+        <p> Secretaria de Estado da Educação e do Esporte </p>
       </div>
       <div class="box">
         <img src="img/logoFAEP.png" alt="Logo da FAEP" class="faep">
-        <<p> Sistema FAEP </p>
+        <p> Sistema Federação da Agricultura do Estado do PR </p>
+      </div>
+
+      <div>
+         <p id="p1"> Produzido por Maria Clara C. Charneski </p>
       </div>
 
     </section>
